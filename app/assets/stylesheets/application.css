@@ -13,3 +13,75 @@
  *= require_tree .
  *= require_self
  */
+/* app/assets/stylesheets/application.css */
+
+/* Style général */
+/* app/assets/stylesheets/application.css */
+
+/* Style général */
+/* app/assets/stylesheets/application.css */
+
+/* Style général */
+/* app/assets/stylesheets/application.css */
+
+/* Style général */
+/* app/assets/stylesheets/application.css */
+
+/* Style général */
+/* app/assets/stylesheets/application.css */
+
+/* Style général */
+/* app/assets/stylesheets/application.css */
+
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 20px auto 0; /* Ajouter un espace en haut de la page */
+  padding: 0;
+}
+
+/* Style des titres */
+h1, h2 {
+  color: #e83e8c; /* Rose */
+  text-align: center; /* Centrage des titres */
+}
+
+/* Style du formulaire */
+.form-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center; /* Centrage du formulaire */
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 70%; /* Réduire la largeur du champ de recherche */
+  max-width: 300px; /* Largeur maximale du champ de recherche */
+  padding: 10px;
+  margin: 0 auto 15px; /* Centrer le champ de recherche et ajouter un espace en bas */
+  display: block; /* Permettre la définition de la marge automatique */
+  border: 1px solid #e83e8c; /* Bordure rose */
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #e83e8c; /* Rose */
+  color: #fff; /* Couleur du texte */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block; /* Mettre en bloc */
+  margin: 0 auto; /* Centrer le bouton */
+}
+
+button[type="submit"]:hover {
+  background-color: #d1387b; /* Couleur de survol */
+}
